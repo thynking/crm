@@ -1,0 +1,61 @@
+/* path: /trubetech/crm/styles/style01.css
+   CRM Base Theme - Style 01
+   REV: 20251121.1
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 15px 0;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+button,
+input[type=submit] {
+    padding: 10px 18px;
+    background: #0080ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover,
+input[type=submit]:hover {
+    background: #0066cc;
+}
